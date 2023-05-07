@@ -12,7 +12,9 @@ const Navbar = () => (
     <div className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="./" className="flex items-center">
-          <Image id="logo" src={logo} width={32} alt="LOGO" />
+          <picture>
+            <Image id="logo" src={logo} width={32} alt="LOGO" />
+          </picture>
           <span
             id="logo-font"
             className="ml-3 self-center text-2xl font-mono font-bold whitespace-nowrap dark:text-white"
@@ -25,7 +27,9 @@ const Navbar = () => (
           onClick={tgltab}
         >
           <span className="sr-only">Open Main Menu</span>
-          <Image src={hamburger} width={24} alt="MORE" />
+          <picture>
+            <Image src={hamburger} width={24} alt="MORE" />
+          </picture>
         </button>
 
         <div id="navbar-default" className="hidden w-full md:block md:w-auto">
