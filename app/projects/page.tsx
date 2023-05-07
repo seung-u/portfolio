@@ -1,7 +1,10 @@
-import React from "react";
+"use client";
+import Navbar from "@/components/navbar";
 
-function about() {
-  return <div>Hello World</div>;
+export default function Home() {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
-
-export default about;
