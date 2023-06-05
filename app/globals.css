@@ -1,8 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap");
 
 body {
   background-color: #f3f6fb;
+}
+
+.scene {
+  width: 100vw;
+  height: 100%;
+}
+
+.canvas {
+  background: #000;
+  height: max-content;
 }
